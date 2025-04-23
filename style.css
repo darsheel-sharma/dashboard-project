@@ -67,3 +67,17 @@ body {
     outline: none;
 }
 
+/** main area **/
+
+.box {
+    background-color: white;
+    border: 2px solid grey;
+    transition: transform 0.2s ease;
+    height: 90%;
+    width: 95%;
+    place-self: center;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
