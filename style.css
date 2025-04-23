@@ -20,4 +20,17 @@ body {
     "sidebar weatherbox notifications dailyquote";
 }
 
+/** topbar **/
 
+.topbar {
+    grid-area: topbar;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a2b8bc;
+    border-bottom: 2px solid grey;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #2c3e50;
+    width: 100%;
+}
