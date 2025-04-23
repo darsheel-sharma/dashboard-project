@@ -300,3 +300,99 @@ ul li span {
 ul li span:hover {
     background: #edeef0;
 }
+
+/**Weather Box**/
+
+.weatherbox {
+    grid-area: weatherbox;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 45% 55%;
+    grid-template-areas: 
+    "wtop wtop wtop wtop wtop wtop wtop"
+    "d1 d2 d3 d4 d5 d6 d7"
+}
+
+.wtop {
+    background-color: #1f567c;
+    grid-area: wtop;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.place span {
+    font-size: 40px;
+    color: white;
+    margin-left: 1rem;
+}
+
+.place p {
+    text-align: center;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.wtop i {
+    color: white;
+    font-size: 2.7rem;
+}
+
+.degree p {
+    color: white;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+
+.degree span {
+    text-align: center;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.d {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+.even {
+    background-color: #1f567c;
+}
+
+.odd {
+    background-color: #23597f;
+}
+
+.d1 {
+    grid-area: d1;
+    
+}
+
+.d2 {
+    grid-area: d2;
+}
+
+.d3 {
+    grid-area: d3;
+}
+
+.d4 {
+    grid-area: d4;
+}
+
+.d5 {
+    grid-area: d5;
+}
+
+.d6 {
+    grid-area: d6;
+}
+
+.d7 {
+    grid-area: d7;
+}
+
