@@ -81,3 +81,76 @@ body {
 .box:hover {
     transform: translateY(-5px);
 }
+
+/**calendar**/
+
+.calendar {
+    grid-area: calendar;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1abc9c;
+    color: #d3f4ec;
+    height: 30%;
+}
+
+.top span {
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.top p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.top i {
+    font-size: 2.7rem;
+    margin: 1rem;
+    transition: color 0.3s ease;
+}
+
+.top i:hover {
+    color: cadetblue;
+    cursor: pointer;
+    outline: none;
+}
+
+.table1{
+    width: 100%;
+    height: 70%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 1.3rem;
+    border-collapse: collapse;
+}
+
+.table1 th {
+    background-color: #dddddd;
+    transition: background-color 0.3s ease;
+}
+
+.table1 th:hover {
+    background-color: grey;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.table1 td {
+    background-color: #eeeeee;
+    transition: background-color 0.3s ease;
+}
+
+.table1 td:hover {
+    background-color: #cce7e6;
+    cursor: pointer;
+    outline: none;
+}
+
+#today {
+    background-color: aquamarine;
+}
