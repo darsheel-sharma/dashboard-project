@@ -34,3 +34,36 @@ body {
     color: #2c3e50;
     width: 100%;
 }
+
+/** sidebar **/
+
+.sidebar {
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a2b8bc;
+    border-right: 2px solid grey;
+}
+
+.icon {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: #e6f1f2;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.icon:hover,
+.icon:focus {
+    background-color: #cce7e6;
+    transform: scale(1.1);
+    cursor: pointer;
+    outline: none;
+}
+
