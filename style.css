@@ -465,3 +465,115 @@ ul li span:hover {
     padding: 0 3rem 2rem 3rem;
 }
 
+/**Media queries**/
+
+@media only screen and (max-width: 1456px) {
+    .content {
+        grid-template-columns: 0.5fr 1.5fr 1.5fr 1.5fr;
+        grid-template-rows: 0.4fr 1.5fr 1.5fr;
+        grid-template-areas: 
+        "topbar topbar topbar topbar"
+        "sidebar calendar MoneyTracker todolist"
+        "sidebar weatherbox notifications dailyquote";
+    }
+}
+
+@media only screen and (max-width: 1310px) { 
+    .content {
+        grid-template-columns: 0.3fr 1.5fr 1.5fr;
+        grid-template-rows: 0.4fr 1.5fr 1.5fr 1.5fr;
+        grid-template-areas: 
+        "topbar topbar topbar"
+        "sidebar calendar MoneyTracker"
+        "sidebar todolist weatherbox"
+        "sidebar notifications dailyquote";
+    }
+    .box {
+        place-self: center;
+    }
+    .calendar {
+        margin: 10px 0 5px 0;
+    }
+    .MoneyTracker {
+        margin: 10px 0 5px 0;
+    }
+    .todolist {
+        margin: 5px 0 5px 0;
+    }
+    .weatherbox {
+        margin: 5px 0 5px 0;
+    }
+    .notifications {
+        margin: 5px 0 10px 0;
+    }
+    .dailyquote {
+        margin: 5px 0 10px 0;
+    }
+}
+
+@media only screen and (max-width: 935px) {
+    .content {
+        grid-template-columns: 10% 90%;
+        grid-template-rows: 0.4fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+        grid-template-areas:
+        "topbar topbar"
+        "sidebar calendar"
+        "sidebar MoneyTracker"
+        "sidebar todolist"
+        "sidebar weatherbox"
+        "sidebar notifications"
+        "sidebar dailyquote";
+    }
+    .box {
+        place-self: center;
+        height: 270px;
+        width: 80%;
+    }
+    .table1 {
+        font-size: 15px;
+    }
+    .table2 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    
+    .content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+        grid-template-areas:
+        "topbar"
+        "sidebar"
+        "calendar"
+        "MoneyTracker"
+        "todolist"
+        "weatherbox"
+        "notifications"
+        "dailyquote";
+    }
+    .box{
+        width: 90%;
+    }
+    .topbar {
+        font-size: 2.7rem;
+        height: 100%;
+    }
+    .sidebar {
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-bottom: 2px solid grey;
+        border-right: 0;
+    }
+    .icon {
+        margin-top: 0;
+        height: 2.2rem;
+        width: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .topbar {
+        font-size: 2.2rem;
+    }
+}
