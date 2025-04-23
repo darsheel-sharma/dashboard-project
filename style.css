@@ -396,3 +396,41 @@ ul li span:hover {
     grid-area: d7;
 }
 
+/**Notification**/
+
+.notifications {
+    grid-area: notifications;
+}
+
+.noti {
+    width: 100%;
+    height: 100%;
+}
+
+.table3 {
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table3 th {
+    height: 16.666%;
+    background-color: #02343f;
+    color: #f0edcc;
+    font-size: 30px;
+}
+
+.table3 td {
+    height: 16.666%;
+    background-color: #f0edcc;
+    color: #02343f;
+    transition: border 0s ease;
+}
+
+.table3 td:hover {
+    border: 2px solid #02343f;
+    cursor: pointer;
+    outline: none;
+}
