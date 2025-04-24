@@ -241,6 +241,7 @@ input {
     outline: none;
     background-color: transparent;
     padding: 0.9rem;
+    width: 10rem;
 }
 
 button {
