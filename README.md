@@ -19,6 +19,3 @@ This project was built entirely with front-end essentials:
 * **HTML5:** For the structure and content of the page.
 * **CSS3:** For styling, layout (Flexbox/Grid), and responsiveness.
 * **Vanilla JavaScript (ES6+):** For all interactive functionality and DOM manipulation.
-
-
-Project Link: [https://github.com/darsheel-sharma/dashboard-project](https://github.com/darsheel-sharma/dashboard-project)
